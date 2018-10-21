@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Tomato Timer </title>
+  
+  
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <div class="container-fluid">
+
+  <div class="row">
+    <h2 class="display-4 title"> Pomodoro Timer </h2>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-6 clockFace">
+      <div class="timer">
+        <div id="minute">
+          25
+        </div>
+        :
+        <div id="second">
+          00
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-6 button-row">
+
+      <div class="rest">
+        <button class="btn btn-light" id="restLess"> &nbsp;-&nbsp; </button>
+        <div id="restNum">5</div>
+        <button class="btn btn-light" id="restMore">+</button>
+      </div>
+
+      <div class="set">
+        <button class="btn btn-light" id="setLess"> &nbsp;-&nbsp; </button>
+        <div id="setNum"> 25 </div>
+        <button class="btn btn-light" id="setMore"> + </button>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="row">
+
+    <div class="col-lg-6 btn">
+      <button class="btn btn-success" id="start"> Start </button>
+      <button class="btn btn-danger" id="stop"> Stop </button>
+      <button class="btn btn-primary" id="reset"> Reset </button>
+    </div>
+
+  </div>
+
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
